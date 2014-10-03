@@ -1,0 +1,101 @@
+/* Colors
+ *   Yellow: #FAFAEF
+ *   Light brown: #B3A285
+ *   Brown: #6B4A38
+ *   Blue: #446481
+ */
+
+body {
+    background-color: #FAFAEF;
+    background-image: url(../images/background.png);
+    background-attachment: fixed;
+    background-position: center 300px;
+    background-repeat: no-repeat;
+    font-family: Iceland, sans-serif;
+    text-align: center;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lemon;
+}
+
+h1 {
+    color: #B3A285;
+    -webkit-text-stroke: 2px #6B4A38;
+    font-size: 46px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    color: #446481;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-size: 31px;
+}
+
+.page-content {
+    padding-bottom: 60px;
+}
+
+/* Header */
+    .page-header .left-paddle {
+        position: absolute;
+        left: 50%;
+        top: 55px;
+        margin-left: -270px;
+        -webkit-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
+
+    .page-header .right-paddle {
+        position: absolute;
+        left: 50%;
+        top: 55px;
+        margin-left: 212px;
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+    .page-header .ball {
+        margin-top: 20px;
+    }
+
+    .page-header .subtitle {
+        font-size: 20px;
+        color: #B3A285;
+    }
+
+/* List */
+    .page-content .button-grid {
+        margin-left: -62px;
+        margin-top: -39px;
+    }
+
+    .page-content .button-grid > li {
+        width: 248px;
+        height: 57px;
+        line-height: 57px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: #FAFAEF;
+        border: 1px solid #6B4A38;
+        box-shadow: 4px 4px 0 #B3A285;
+        margin-left: 62px;
+        margin-top: 39px;
+        cursor: pointer;
+        font-size: 25px;
+        color: #6B4A38;
+    }
+
+    .page-content .button-grid > li:hover {
+        color: #446481;
+        border-color: #446481;
+        box-shadow: 4px 4px 0 #A2B2B0;
+    }
